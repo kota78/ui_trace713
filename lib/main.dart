@@ -37,6 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
         body: Stack(
             children:[
               Positioned.fill(child: Container(color: Colors.black,),),
+              Center(child: Image.asset("assets/night_moon.gif")),
               Column(
                 children: [
                   Expanded(child: (Container())),
@@ -49,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Expanded(child: (Container())),
                   //Image.asset("assets/350x350.jpg"),
                   Text("Sign up to spend more time with your\nfriends "),
+                  Expanded(flex:10,child:Container()),
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical:30.0,horizontal:8),
                     child: Material(
